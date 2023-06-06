@@ -1,0 +1,60 @@
+/* Page body style */
+body{
+	margin: 200;
+	font-family: Arial, Helvetica, sans-serif,'Courier New', Courier, monospace;
+	background-color: #ebebfa
+	
+}	
+
+/* Page header style */
+header{
+	border: 10px;
+	background-color: #9999e6;
+	text-align: center;
+	width: 100%; /*85%;*/
+	height: 32%;
+	overflow: auto;
+}
+
+p{
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+/* Create a class that can be applied to multiple tags */
+img{
+	width: 50%;
+	border: yellow solid 10px;
+	border-radius: 15px;
+	padding: 10px 50px;
+}
+ul>li{
+display: inline-block;
+text-align: center;
+padding: 10px;
+
+
+}
+
+/* Create a class to add a border around a tag(s) */
+.myBorder{
+	border: purple solid 2px;
+	border-radius: 50px;
+	border-width: 2px;
+	border-length: 20px;
+}
+
+/* Create a class that can be used to center tag(s) */
+.centered{
+	display: block;
+	margin: auto;
+	width: 75%;
+}
